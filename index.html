@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <section class="portfolio" id="portfolio">
+    <section class="catalog" id="catalog">
       <div class="container">
-        <h2 class="caption">Category</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
+        <h2 class="caption">Catalog</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
             <div class="content">
               <picture class="picture">
                 <source
@@ -38,18 +45,19 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="292"
-                  height="292"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">
+                  Garmin Fenix 7X Pro Sapphire Solar
+                </h3>
+                <p class="catalog-descr">€500</p>
               </div>
             </div>
           </li>
 
-          <li class="portfolio-item">
+          <li class="catalog-item">
             <div class="content">
               <picture class="picture">
                 <source
@@ -76,17 +84,16 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="292"
-                  height="292"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">Garmin Marq Athlete</h3>
+                <p class="catalog-descr">€450</p>
               </div>
             </div>
           </li>
-          <li class="portfolio-item">
+          <li class="catalog-item">
             <div class="content">
               <picture class="picture">
                 <source
@@ -113,17 +120,16 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="292"
-                  height="292"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">Garmin Descent MK1</h3>
+                <p class="catalog-descr">€680</p>
               </div>
             </div>
           </li>
-          <li class="portfolio-item">
+          <li class="catalog-item">
             <div class="content">
               <picture class="picture">
                 <source
@@ -150,17 +156,16 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="292"
-                  height="292"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">Garmin D2 Delta PX</h3>
+                <p class="catalog-descr">€380</p>
               </div>
             </div>
           </li>
-          <li class="portfolio-item">
+          <li class="catalog-item" id="catalog-item-hiden">
             <div class="content">
               <picture class="picture">
                 <source
@@ -187,17 +192,16 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="306"
-                  height="312"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">Garmin Fenix 6 Pro Solar</h3>
+                <p class="catalog-descr">€400</p>
               </div>
             </div>
           </li>
-          <li class="portfolio-item">
+          <li class="catalog-item" id="catalog-item-hiden">
             <div class="content">
               <picture class="picture">
                 <source
@@ -224,17 +228,19 @@
                 <img
                   src="./images/banking-app-mob.jpg"
                   alt="Banking App"
-                  width="306"
-                  height="312"
+                  class="resp-image"
                 />
               </picture>
-              <div class="portfolio-name">
-                <h3 class="portfolio-caption">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="catalog-name">
+                <h3 class="catalog-caption">
+                  Tube Watch S42 Date Steel With Black Case
+                </h3>
+                <p class="catalog-descr">€395</p>
               </div>
             </div>
           </li>
         </ul>
+        <button class="button-class" type="button">Show more</button>
       </div>
     </section>
   </body>
